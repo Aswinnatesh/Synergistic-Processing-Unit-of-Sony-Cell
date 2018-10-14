@@ -1,0 +1,1008 @@
+
+EVEN INSTRUCTION || Add Word
+>> Input at  :                  15 
+>> Output at :                  95
+-> Opcode_Even  = 	 00011000000 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Store Quadword (x-form)
+>> Input at  :                  15 
+>> Output at :                  95
+-> Opcode_Odd  = 	 00101000100 
+-> Addr_Odd_Ra =		 127 
+-> Addr_Odd_Rb = 		 127 
+-> Addr_Odd_Rc =		 123 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Add Extended
+>> Input at  :                  25 
+>> Output at :                 105
+-> Opcode_Even  = 	 01101000000 
+-> Addr_Even_Ra =		 126 
+-> Addr_Even_Rb = 		 127 
+-> Addr_Even_Rc =		 125 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Load Quadword (x-form)
+>> Input at  :                  25 
+>> Output at :                 105
+-> Opcode_Odd  = 	 00111000100 
+-> Addr_Odd_Ra =		 127 
+-> Addr_Odd_Rb = 		 127 
+-> Addr_Odd_Rc =		 120 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Add Word Immediate
+>> Input at  :                  35 
+>> Output at :                 115
+-> Opcode_Even  = 	 00000011100 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   25 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Store Quadword (a-form)
+>> Input at  :                  35 
+>> Output at :                 115
+-> Opcode_Odd  = 	 00001000001 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		 122 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		         127 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || And
+>> Input at  :                  45 
+>> Output at :                 125
+-> Opcode_Even  = 	 00011000001 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Load Quadword (a-form)
+>> Input at  :                  45 
+>> Output at :                 125
+-> Opcode_Odd  = 	 00001100001 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		         127 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || And Byte Immediate
+>> Input at  :                  55 
+>> Output at :                 135
+-> Opcode_Even  = 	 00000010110 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    9 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch Indirect
+>> Input at  :                  55 
+>> Output at :                 135
+-> Opcode_Odd  = 	 00110101000 
+-> Addr_Odd_Ra =		 127 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || And with Complement
+>> Input at  :                  65 
+>> Output at :                 145
+-> Opcode_Even  = 	 01011000001 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch Indirect and Set Link
+>> Input at  :                  65 
+>> Output at :                 145
+-> Opcode_Odd  = 	 00110101001 
+-> Addr_Odd_Ra =		 127 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Odd =		           0
+-> PC =		          224656
+
+
+EVEN INSTRUCTION || Compare Equal Word
+>> Input at  :                  75 
+>> Output at :                 155
+-> Opcode_Even  = 	 01111000000 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch Relative
+>> Input at  :                  75 
+>> Output at :                 155
+-> Opcode_Odd  = 	 00001100100 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		          36 
+-> Imm18_Odd =		           0
+-> PC =		          324345
+
+
+EVEN INSTRUCTION || Compare Equal Byte
+>> Input at  :                  85 
+>> Output at :                 165
+-> Opcode_Even  = 	 01111010000 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch Absolute
+>> Input at  :                  85 
+>> Output at :                 165
+-> Opcode_Odd  = 	 00001100000 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		          36 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Compare Equal Byte Immediate
+>> Input at  :                  95 
+>> Output at :                 175
+-> Opcode_Even  = 	 00001111110 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   25 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch Absolute and Set Link
+>> Input at  :                  95 
+>> Output at :                 175
+-> Opcode_Odd  = 	 00001100010 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		          36 
+-> Imm18_Odd =		           0
+-> PC =		          423536
+
+
+EVEN INSTRUCTION || Compare Equal Word Immediate
+>> Input at  :                 105 
+>> Output at :                 185
+-> Opcode_Even  = 	 00001111100 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   20 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch Relative and Set Link
+>> Input at  :                 105 
+>> Output at :                 185
+-> Opcode_Odd  = 	 00001100110 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		          36 
+-> Imm18_Odd =		           0
+-> PC =		          524656
+
+
+EVEN INSTRUCTION || Compare Greater Than Byte
+>> Input at  :                 115 
+>> Output at :                 195
+-> Opcode_Even  = 	 01001010000 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   25 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Rotate Quadword by Bytes
+>> Input at  :                 115 
+>> Output at :                 195
+-> Opcode_Odd  = 	 00111011100 
+-> Addr_Odd_Ra =		 126 
+-> Addr_Odd_Rb = 		 126 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Compare Greater Than Byte Immediate
+>> Input at  :                 125 
+>> Output at :                 205
+-> Opcode_Even  = 	 00001001110 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   25 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Rotate Quadword by Bytes Immediate
+>> Input at  :                 125 
+>> Output at :                 205
+-> Opcode_Odd  = 	 00111111100 
+-> Addr_Odd_Ra =		 126 
+-> Addr_Odd_Rb = 		 126 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Compare Greater Than Word Immediate
+>> Input at  :                 135 
+>> Output at :                 215
+-> Opcode_Even  = 	 00001001100 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   20 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Rotate and mask Quadword by Bytes
+>> Input at  :                 135 
+>> Output at :                 215
+-> Opcode_Odd  = 	 00111011101 
+-> Addr_Odd_Ra =		 126 
+-> Addr_Odd_Rb = 		 126 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Compare Logical Greater Than Byte
+>> Input at  :                 145 
+>> Output at :                 225
+-> Opcode_Even  = 	 01011010000 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Rotate and Mask Quadword by Bytes Immediate
+>> Input at  :                 145 
+>> Output at :                 225
+-> Opcode_Odd  = 	 00111111101 
+-> Addr_Odd_Ra =		 126 
+-> Addr_Odd_Rb = 		 126 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Compare Logical Greater Than Byte Immediate
+>> Input at  :                 155 
+>> Output at :                 235
+-> Opcode_Even  = 	 00001011110 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   25 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Shift left quadword by bytes
+>> Input at  :                 155 
+>> Output at :                 235
+-> Opcode_Odd  = 	 00111011111 
+-> Addr_Odd_Ra =		 126 
+-> Addr_Odd_Rb = 		 126 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Immediate Load Word
+>> Input at  :                 165 
+>> Output at :                 245
+-> Opcode_Even  = 	 00010000001 
+-> Addr_Even_Ra =		   0 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		           25 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Shift left quadword by bytes immediate
+>> Input at  :                 165 
+>> Output at :                 245
+-> Opcode_Odd  = 	 00111111111 
+-> Addr_Odd_Ra =		 126 
+-> Addr_Odd_Rb = 		 126 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Immediate Load Halfword
+>> Input at  :                 175 
+>> Output at :                 255
+-> Opcode_Even  = 	 00010000011 
+-> Addr_Even_Ra =		   0 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		           25 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch if Not Zero Word
+>> Input at  :                 175 
+>> Output at :                 255
+-> Opcode_Odd  = 	 00001000010 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		 127 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		          36 
+-> Imm18_Odd =		           0
+-> PC =		          323523
+
+
+EVEN INSTRUCTION || Immediate Load Address
+>> Input at  :                 185 
+>> Output at :                 265
+-> Opcode_Even  = 	 00000100001 
+-> Addr_Even_Ra =		   0 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		           25
+
+
+ODD INSTRUCTION || Branch if Zero Word
+>> Input at  :                 185 
+>> Output at :                 265
+-> Opcode_Odd  = 	 00001000000 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		          36 
+-> Imm18_Odd =		           0
+-> PC =		          328766
+
+
+EVEN INSTRUCTION || Nand
+>> Input at  :                 195 
+>> Output at :                 275
+-> Opcode_Even  = 	 00011001001 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || No Operation (Execute)
+>> Input at  :                 195 
+>> Output at :                 275
+-> Opcode_Odd  = 	 01000000001 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		  55 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Nor
+>> Input at  :                 205 
+>> Output at :                 285
+-> Opcode_Even  = 	 00001001001 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Load Quadword (a-form)
+>> Input at  :                 205 
+>> Output at :                 285
+-> Opcode_Odd  = 	 00001100001 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		         127 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Or
+>> Input at  :                 215 
+>> Output at :                 295
+-> Opcode_Even  = 	 00001000001 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Load Quadword (x-form)
+>> Input at  :                 215 
+>> Output at :                 295
+-> Opcode_Odd  = 	 00111000100 
+-> Addr_Odd_Ra =		 127 
+-> Addr_Odd_Rb = 		 127 
+-> Addr_Odd_Rc =		 120 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Or with Complement
+>> Input at  :                 225 
+>> Output at :                 305
+-> Opcode_Even  = 	 01011001001 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Load Quadword (a-form) - Flushed
+>> Input at  :                 225 
+>> Output at :                 305
+-> Opcode_Odd  = 	 00001100001 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		         127 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Or Word Immediate
+>> Input at  :                 235 
+>> Output at :                 315
+-> Opcode_Even  = 	 00000000100 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   25 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Load Quadword (x-form) - Flushed
+>> Input at  :                 235 
+>> Output at :                 315
+-> Opcode_Odd  = 	 00111000100 
+-> Addr_Odd_Ra =		 127 
+-> Addr_Odd_Rb = 		 127 
+-> Addr_Odd_Rc =		 120 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Subtract from Word
+>> Input at  :                 245 
+>> Output at :                 325
+-> Opcode_Even  = 	 00001000000 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || Branch Flush Test
+>> Input at  :                 245 
+>> Output at :                 325
+-> Opcode_Odd  = 	 00000000000 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		   0 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+-> Flush =		      1
+
+
+EVEN INSTRUCTION || Subtract from Word Immediate
+>> Input at  :                 255 
+>> Output at :                 335
+-> Opcode_Even  = 	 00000001100 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   20 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+ODD INSTRUCTION || No Operation (Execute)
+>> Input at  :                 255 
+>> Output at :                 335
+-> Opcode_Odd  = 	 01000000001 
+-> Addr_Odd_Ra =		   0 
+-> Addr_Odd_Rb = 		   0 
+-> Addr_Odd_Rc =		  55 
+-> Imm7_Odd  =			   0 
+-> Imm10_Odd =			   0 
+-> Imm16_Odd =		           0 
+-> Imm18_Even =		           0
+
+
+EVEN INSTRUCTION || Subtract from Extended
+>> Input at  :                 265 
+>> Output at :                 345
+-> Opcode_Even  = 	 01101000001 
+-> Addr_Even_Ra =		 126 
+-> Addr_Even_Rb = 		 127 
+-> Addr_Even_Rc =		 125 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Exclusive Or
+>> Input at  :                 275 
+>> Output at :                 355
+-> Opcode_Even  = 	 01001000001 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Exclusive Or Byte Immediate
+>> Input at  :                 285 
+>> Output at :                 365
+-> Opcode_Even  = 	 00001000110 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   20 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Exclusive Or Word Immediate
+>> Input at  :                 295 
+>> Output at :                 375
+-> Opcode_Even  = 	 00001000100 
+-> Addr_Even_Ra =		  25 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   20 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Extend Sign Byte to Halfword
+>> Input at  :                 305 
+>> Output at :                 385
+-> Opcode_Even  = 	 01010110110 
+-> Addr_Even_Ra =		 127 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Extend Sign Halfword to Word
+>> Input at  :                 315 
+>> Output at :                 395
+-> Opcode_Even  = 	 01010101110 
+-> Addr_Even_Ra =		 127 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Extend Sign Word to Doubleword
+>> Input at  :                 325 
+>> Output at :                 405
+-> Opcode_Even  = 	 01010100110 
+-> Addr_Even_Ra =		 127 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Absolute Differences of Bytes
+>> Input at  :                 335 
+>> Output at :                 415
+-> Opcode_Even  = 	 00001010011 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Average Bytes
+>> Input at  :                 345 
+>> Output at :                 425
+-> Opcode_Even  = 	 00011010011 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  20 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Count Ones in Bytes
+>> Input at  :                 355 
+>> Output at :                 435
+-> Opcode_Even  = 	 01010110100 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Rotate word
+>> Input at  :                 365 
+>> Output at :                 445
+-> Opcode_Even  = 	 00001011000 
+-> Addr_Even_Ra =		 126 
+-> Addr_Even_Rb = 		 126 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Rotate and mask word
+>> Input at  :                 375 
+>> Output at :                 455
+-> Opcode_Even  = 	 00001011001 
+-> Addr_Even_Ra =		 126 
+-> Addr_Even_Rb = 		 126 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Shift left word
+>> Input at  :                 385 
+>> Output at :                 465
+-> Opcode_Even  = 	 00001011011 
+-> Addr_Even_Ra =		 126 
+-> Addr_Even_Rb = 		 126 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Shift left word immediate
+>> Input at  :                 395 
+>> Output at :                 475
+-> Opcode_Even  = 	 00001111011 
+-> Addr_Even_Ra =		 126 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    7 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Sum Bytes into Halfwords
+>> Input at  :                 405 
+>> Output at :                 485
+-> Opcode_Even  = 	 01001010011 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Multiply
+>> Input at  :                 415 
+>> Output at :                 495
+-> Opcode_Even  = 	 01111000100 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Multiply and Add
+>> Input at  :                 425 
+>> Output at :                 505
+-> Opcode_Even  = 	 00000001100 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		  20 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Multiply Immediate
+>> Input at  :                 435 
+>> Output at :                 515
+-> Opcode_Even  = 	 00001110100 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   25 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Multiply and Shift Right
+>> Input at  :                 445 
+>> Output at :                 525
+-> Opcode_Even  = 	 01111000111 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Multiply Unsigned
+>> Input at  :                 455 
+>> Output at :                 535
+-> Opcode_Even  = 	 01111001100 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		  25 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Multiply Unsigned Immediate
+>> Input at  :                 465 
+>> Output at :                 545
+-> Opcode_Even  = 	 00001110101 
+-> Addr_Even_Ra =		  20 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			   20 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Floating Add
+>> Input at  :                 475 
+>> Output at :                 555
+-> Opcode_Even  = 	 01011000100 
+-> Addr_Even_Ra =		 124 
+-> Addr_Even_Rb = 		 124 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Floating Multiply
+>> Input at  :                 485 
+>> Output at :                 565
+-> Opcode_Even  = 	 01011000110 
+-> Addr_Even_Ra =		 124 
+-> Addr_Even_Rb = 		 124 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Floating Multiply and Add
+>> Input at  :                 495 
+>> Output at :                 575
+-> Opcode_Even  = 	 00000001110 
+-> Addr_Even_Ra =		 124 
+-> Addr_Even_Rb = 		 124 
+-> Addr_Even_Rc =		 124 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Floating Multiply and Subtract
+>> Input at  :                 505 
+>> Output at :                 585
+-> Opcode_Even  = 	 00000001111 
+-> Addr_Even_Ra =		 124 
+-> Addr_Even_Rb = 		 124 
+-> Addr_Even_Rc =		 124 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || Floating Subtract
+>> Input at  :                 515 
+>> Output at :                 595
+-> Opcode_Even  = 	 01011000101 
+-> Addr_Even_Ra =		 124 
+-> Addr_Even_Rb = 		 124 
+-> Addr_Even_Rc =		   0 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
+
+EVEN INSTRUCTION || No Operation (Execute)
+>> Input at  :                 525 
+>> Output at :                 605
+-> Opcode_Even  = 	 01000000001 
+-> Addr_Even_Ra =		   0 
+-> Addr_Even_Rb = 		   0 
+-> Addr_Even_Rc =		  45 
+-> Imm7_Even  =			    0 
+-> Imm10_Even =			    0 
+-> Imm16_Even =		            0 
+-> Imm18_Even =		            0
+
